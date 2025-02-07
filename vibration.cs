@@ -41,7 +41,7 @@ void loop()
         {
         buttonState = digitalRead(buttonPin);
         delay(1000);
-        if(buttonState == HIGH)98io9io
+        if(buttonState == HIGH)
         {
             f1=1;
             break;
@@ -72,7 +72,7 @@ void SendSMS()
 {
   Serial.println("AT");    
   delay(1000);
-  Serial.println("ATD+ +919944553102;"); 
+  Serial.println("ATD+ +91;"); 
   delay(20000);
   Serial.println("ATH");
 }
